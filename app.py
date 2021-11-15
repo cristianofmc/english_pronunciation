@@ -35,9 +35,9 @@ if __name__=='__main__':
         print_menu()
         key = ''
         try:
-            key = int(input('Enter your choice: '))
+            key = int(input('Enter your option: '))
             
         except:
-            print('Wrong input. Please enter a number ...')
+            print('Unrecognized option, please try again... ')
             
         if key in menu_options: menu_options.get(key, None)[1]()
