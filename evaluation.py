@@ -7,7 +7,7 @@ class Evaluation:
         self.sample = sample
         self.words_counter = 0
         self.error_counter = 0
-        self.grade = ''
+        self.grade = ""
     
     def discriminate(self, string):
         return ''.join([u'\u0336{}'.format(c) for c in string])
@@ -40,7 +40,7 @@ class Evaluation:
 
 
             if (prev.b + prev.size != match.b):
-            # word exist in the sample, but not found in the reference
+                # word exist in the sample, but not found in the reference
 
                 self.error_counter += len(sample[prev.b + prev.size:match.b])
 
@@ -67,12 +67,3 @@ class Evaluation:
             self.grade = 'D'
         
         return self.grade
-
-
-# s1 = "It is warm. It is summer."
-# s2 = "It is warm. It is summer."
-# newEValuation  = Evaluation(s1, s2)
-
-# print('\nRestult\n'+'-'*30)
-# print(newEValuation.compare())
-# print(f'Grade: {newEValuation.grader()}')
