@@ -10,13 +10,13 @@ class Evaluation:
         self.grade = ""
     
     def discriminate(self, string):
-        return ''.join([u'\u0336{}'.format(c) for c in string])
+        return "".join([u'\u0336{}'.format(c) for c in string])
 
     def tokenize(self, string):
-        return re.split('\s+', string)
+        return re.split("\s+", string)
 
     def untokenize(self, tokens):
-        return ' '.join(tokens)
+        return " ".join(tokens)
             
     def compare(self):
         reference = self.tokenize(self.reference)
@@ -58,12 +58,12 @@ class Evaluation:
         percent = (self.error_counter * 100) / self.words_counter
         
         if percent == 0:
-            self.grade = 'A'
+            self.grade = "A"
         if percent > 0 and percent < 50:
-            self.grade = 'B'
+            self.grade = "B"
         if percent > 50 and percent < 80:
-            self.grade = 'C'
+            self.grade = "C"
         if percent > 80:
-            self.grade = 'D'
+            self.grade = "D"
         
         return self.grade
