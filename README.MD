@@ -1,5 +1,6 @@
 # Py English Pronunciation
-That is a simple app to help you to improve your english pronunciation
+That is a simple app to help you to improve your english pronunciation.
+
 Type the text then speak, and then your pronunciation will be corrected.
 
 ## Installation
