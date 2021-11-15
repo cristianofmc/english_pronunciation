@@ -2,7 +2,6 @@ import speech_recognition as sr
 
 class Voice:
     def __init__(self) -> None:
-
         self.recognizer = sr.Recognizer()
 
     def speaker(self):
