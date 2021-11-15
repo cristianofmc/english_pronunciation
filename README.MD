@@ -9,5 +9,5 @@ You just need install python(if needed) and the requirements and run the app.py 
 VPE it is free software, and may be redistributed under the terms specified in the
 [LICENSE] file.
 
-[LICENSE]: https://github.com/cristianofmc/english_pronunciation/blob/master/LICENSE
+[LICENSE]: https://github.com/cristianofmc/py_english_pronunciation/blob/master/LICENSE
 
