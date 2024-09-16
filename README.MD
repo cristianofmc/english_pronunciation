@@ -10,7 +10,7 @@ You just need install python(if needed) and the [requirements](requirements.txt)
 
  
 ## License
-VPE it is free software, and may be redistributed under the terms specified in the
+py_english_pronunciation it is free software, and may be redistributed under the terms specified in the
 [LICENSE] file.
 
 [LICENSE]: LICENSE
